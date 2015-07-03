@@ -10,7 +10,9 @@ require("vars")
 # t.threshold: threshhold value for the t-statistics in the iterative
 # exlusion of uncorrelated variables.
 model.lag.max <- 30
-model.lag.avg <- 7
+model.lag.i.o.avg <- 7
+model.lag.i.s.avg <- 0
+model.lag.i.o.avg <- model.lag.i.s.avg + model.lag.i.o.avg
 t.threshold   <- 2
 
 # Data is read from a CSV file. The data consists of daily aggregates of

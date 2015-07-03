@@ -1,1 +1,5 @@
-# thesis
+Thesis
+======
+Anomaly Detection Capability of Existing Models of Continuity Equations in Continuous Assurance
+--------------
+Continuous assurance is a methodology to provide assurance on financial data on a near real-time basis. One of the fundamental elements of continuous assurance is continuous data auditing  in which the integrity of the data provided by the client is tested. Continuity equations can be used to evidence assertions regarding data integrity. In order to do so, data is tested by predicting subsequent values based on a fitting model. In total there are four models: the linear regression model, the simultaneous equations model, the vector autoregressive model and the restricted vector autoregressive model. I propose to test these models and compare them on the aspect of anomaly detection capability.
